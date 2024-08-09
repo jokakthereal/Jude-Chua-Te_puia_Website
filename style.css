@@ -1,0 +1,16 @@
+.hero-image{
+    background-image: url("./images/20240626_111238.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 352px;
+}
+.hero-text{
+    color:whitesmoke;
+    position: absolute;
+    top: 180px;
+    width:100%;
+    text-align: center;
+    font-size: 4rem;
+}
