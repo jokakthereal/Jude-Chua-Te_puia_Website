@@ -116,7 +116,7 @@ hr{
     margin-bottom: 20px;
     width:100%;
     height:10px;
-    background-color:rgb(101,116,58);
+    background-color:rgb(72, 83, 42);
     border-width: 0;
 }
 
@@ -137,8 +137,8 @@ hr{
     .div7 { grid-area: 3 / 6 / 4/ 9; }
     .div8 { grid-area: 3 / 10 / 4 / 13; }
     .div9 { grid-area: 4 / 1 / 5 / 14; }
-    .div10 { grid-area: 6 / 1 / 10 / 14; }
-    .div11 { grid-area: 18 / 5 / 19 / 10; }
+    .div10 { grid-area: 5 / 1 / 9 / 14; }
+    .div11 { grid-area: 9 / 3 / 10 / 12; }
     .div12 { grid-area: 20 / 1 / 21 / 14; }
     .div13 { grid-area: 22 / 1 / 27 / 14; }
     .div14 { grid-area: 23 / 6 / 24 / 9; }
@@ -157,12 +157,12 @@ hr{
     color: rgb(10, 18, 42);
     font-family: "Bebas Neue";
     top: 20px;
+    width:100%;
+    text-align: center;
     font-size: 2.5rem;
     margin-top: 10px;
     text-decoration: none;
-    align-self:center ;
-    text-align: right;
-  }
+}
 
 .three-col-img{
     width:100%;
@@ -191,14 +191,16 @@ hr{
 }
 
 .hero-image-home2{
-  width: 100%;
-  align-self: center;
-  min-height: 450px; 
+  background-image: url("./images/hero-image-home2.jpeg");
       
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  size: cover;
+
+        min-height: 600px; 
+      
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 2px;
+        border-style: solid;
 }
 
 .two-column-left{
@@ -210,6 +212,25 @@ hr{
   margin-top: 40px;
 }
 
+.two-column-left{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.two-column-right{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
 
 .info{
   font-size: 1em;
@@ -219,10 +240,11 @@ hr{
 .experiences-img{
   width: 100%;
   border-radius: 5px;
+  border-style: solid;
 }
 
-.experiences-hero-img{
-  background-image: url("./images/experiences-hero-img.jpeg");
+.experiences-hero{
+  background-image: url("./images/experiences-hero-img.jpg");
       
 
         min-height: 450px; 
@@ -231,4 +253,16 @@ hr{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+}
+
+.experience-txt-left{
+  text-align: left;
+}
+
+.experience-txt-right{
+  text-align: right;
+}
+
+.experience-text-hdng{
+  text-align: center;
 }
