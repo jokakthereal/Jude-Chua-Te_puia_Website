@@ -107,6 +107,8 @@ ul {
 
 .menu-line-hero{
     width:50%;
+    position: relative;
+    top: 220px;
 }
 
 hr{
@@ -296,6 +298,10 @@ hr{
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
+}
+
+.details-line{
+  position:relative;
 }
   
 .booking-form {
